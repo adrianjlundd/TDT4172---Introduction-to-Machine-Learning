@@ -21,7 +21,7 @@ class LinearRegression():
             y (array<m>): a vector of floats
         """
         # ====================================
-        # YOUR CODE GOES HERE
+        # Problem 1
         # ====================================
         raise NotImplementedError("LinearRegression.fit is not implemented yet.")
     
@@ -39,7 +39,7 @@ class LinearRegression():
             A length m array of floats
         """
         # ====================================
-        # YOUR CODE GOES HERE
+        # Problem 2
         # ====================================
         raise NotImplementedError("LinearRegression.predict is not implemented yet.")
     
