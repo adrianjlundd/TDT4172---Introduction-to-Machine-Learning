@@ -21,7 +21,10 @@ class LinearRegression():
             y (array<m>): a vector of floats
         """
         # ====================================
-        # Problem 1
+        m = X.shape[0]
+        n = X.shape[1]
+        self.weights = np.zeros(n)
+        self.bias = 0.0
         # ====================================
         raise NotImplementedError("LinearRegression.fit is not implemented yet.")
     
@@ -39,7 +42,13 @@ class LinearRegression():
             A length m array of floats
         """
         # ====================================
-        # Problem 2
+        #m = X.shape[0]
+        #y_pred = np.zeros(m)
+        y_pred = np.dot(X, self.weights) + self.bias
+        # ====
+        # også mulig y_pred = X @ self.weights + self.bias
+
+        return y_pred
         # ====================================
         raise NotImplementedError("LinearRegression.predict is not implemented yet.")
     
